@@ -10,15 +10,15 @@ int main()
 
     if ((65 <= (int)character) && ((int)character <= 90))
     {
-    cout << "The lower case of " << character << " is " << static_cast<char>((int)character + 32) << endl;
+    cout << "The lower case of " << character << " is " << static_cast<char>((int)character + 32);
     }
     else if ((97 <= (int)character) && ((int)character <= 122))
     {
-    cout << "The upper case of " << character << " is " << static_cast<char>((int)character - 32) << endl;
+    cout << "The upper case of " << character << " is " << static_cast<char>((int)character - 32);
     }
     else
     {
-    cout << character << " is not a letter" << endl;
+    cout << character << " is not a letter";
     }
 
     return 0;
